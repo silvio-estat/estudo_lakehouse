@@ -1,0 +1,79 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "25c8693f-0a58-4e20-b1b6-d82d013833cc",
+  "location" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/iceberg_warehouse/bronze/events",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1773840017759,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "event_ts",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "silvio.ferreira",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 4309114104402908962,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 4309114104402908962,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 4309114104402908962,
+    "timestamp-ms" : 1773840017759,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773840010142",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/iceberg_warehouse/bronze/events/metadata/snap-4309114104402908962-1-c0e9c7f9-c0b3-4124-b074-bb313c256582.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1773840017759,
+    "snapshot-id" : 4309114104402908962
+  } ],
+  "metadata-log" : [ ]
+}

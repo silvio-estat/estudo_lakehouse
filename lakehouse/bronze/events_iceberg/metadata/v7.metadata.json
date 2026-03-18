@@ -1,0 +1,235 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "25c8693f-0a58-4e20-b1b6-d82d013833cc",
+  "location" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/iceberg_warehouse/bronze/events",
+  "last-sequence-number" : 7,
+  "last-updated-ms" : 1773848234383,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "event_ts",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "silvio.ferreira",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 9876513644700229,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 9876513644700229,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 4309114104402908962,
+    "timestamp-ms" : 1773840017759,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773840010142",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/iceberg_warehouse/bronze/events/metadata/snap-4309114104402908962-1-c0e9c7f9-c0b3-4124-b074-bb313c256582.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 2,
+    "snapshot-id" : 5905938459655772872,
+    "timestamp-ms" : 1773847528863,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773847387150",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/snap-5905938459655772872-1-44608313-b0fd-4a03-8646-d1d63ac321c1.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 3,
+    "snapshot-id" : 6480382337491565366,
+    "timestamp-ms" : 1773847828016,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773847825055",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/snap-6480382337491565366-1-2bee8f2a-ad4a-4c9c-81e0-5fc46ad21fd3.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 4,
+    "snapshot-id" : 5451577307285210995,
+    "timestamp-ms" : 1773847955732,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773847952777",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/snap-5451577307285210995-1-c1c04d9d-9f8a-4d99-96b9-718090055080.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 5,
+    "snapshot-id" : 7920036838462500590,
+    "timestamp-ms" : 1773848043394,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773848040446",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/snap-7920036838462500590-1-d757de68-97d3-4371-9917-d3eaf8f96e27.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 6,
+    "snapshot-id" : 3244956083421045986,
+    "timestamp-ms" : 1773848212090,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773848206078",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/snap-3244956083421045986-1-c12ff22c-10f6-43ee-8372-03c65c68ebf6.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 7,
+    "snapshot-id" : 9876513644700229,
+    "timestamp-ms" : 1773848234383,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773848206078",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "993",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "993",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/snap-9876513644700229-1-57672e36-0e3a-45a9-ac45-7cb2fa71bf4a.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1773840017759,
+    "snapshot-id" : 4309114104402908962
+  }, {
+    "timestamp-ms" : 1773847528863,
+    "snapshot-id" : 5905938459655772872
+  }, {
+    "timestamp-ms" : 1773847828016,
+    "snapshot-id" : 6480382337491565366
+  }, {
+    "timestamp-ms" : 1773847955732,
+    "snapshot-id" : 5451577307285210995
+  }, {
+    "timestamp-ms" : 1773848043394,
+    "snapshot-id" : 7920036838462500590
+  }, {
+    "timestamp-ms" : 1773848212090,
+    "snapshot-id" : 3244956083421045986
+  }, {
+    "timestamp-ms" : 1773848234383,
+    "snapshot-id" : 9876513644700229
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1773840017759,
+    "metadata-file" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1773847528863,
+    "metadata-file" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/v2.metadata.json"
+  }, {
+    "timestamp-ms" : 1773847828016,
+    "metadata-file" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/v3.metadata.json"
+  }, {
+    "timestamp-ms" : 1773847955732,
+    "metadata-file" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/v4.metadata.json"
+  }, {
+    "timestamp-ms" : 1773848043394,
+    "metadata-file" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/v5.metadata.json"
+  }, {
+    "timestamp-ms" : 1773848212090,
+    "metadata-file" : "/home/silvio.ferreira/Projetos/estudo_lakehouse/lakehouse/bronze/events_iceberg/metadata/v6.metadata.json"
+  } ]
+}

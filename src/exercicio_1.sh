@@ -1,3 +1,7 @@
+#!/bin/bash
+# Navega para o diretório raiz do projeto (um nível acima de 'src')
+cd "$(dirname "$0")/.."
+
 echo '{"id":1,"name":"Alice","event_ts":"2025-01-01T10:00:00"}' > raw.json
 echo '{"id":2,"name":"Bob","event_ts":"2025-01-01T10:05:00"}'>> raw.json
 
